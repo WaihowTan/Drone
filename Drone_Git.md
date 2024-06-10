@@ -45,3 +45,25 @@
 
 ## Software Architecture
 The Drone Fleet Management System will utilize a client-server architecture. The server will manage data storage, real-time tracking, mission scheduling, and reporting. Clients (desktop or tablet applications) will interact with the server to access real-time drone data, manage missions, and view reports.
+
+## Technological Stack
+- **Backend**:
+  - **Language**: Python
+  - **Framework**: Flask
+  - **Database**: PostgreSQL
+  - **Real-time Communication**: WebSocket
+  - **External Map Service Integration**: Google Maps API
+
+- **Frontend**:
+  - **Framework**: React.js
+  - **State Management**: Redux
+  - **Mapping**: Leaflet.js
+
+- **Infrastructure**:
+  - **Cloud Hosting**: AWS
+  - **Containerization**: Docker
+  - **Orchestration**: Kubernetes
+
+- **Monitoring and Logging**:
+  - Prometheus for monitoring metrics
+  - ELK stack (Elasticsearch, Logstash, Kibana) for logging and visualization.
